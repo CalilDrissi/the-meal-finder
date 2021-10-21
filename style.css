@@ -171,8 +171,11 @@ footer {
     margin: 20px;
     align-self: flex-start;
     color: white;
+    transition: all 1s;
 }
-
+footer:hover {
+  transform: rotate(360deg)
+}
 
 
 /* Media Queries */
