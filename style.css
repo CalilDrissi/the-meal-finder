@@ -38,6 +38,7 @@ body {
      margin-top: 70px;
      color: white;
      font-size: 120px;
+     text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
  }
 
 h3 {
@@ -116,7 +117,7 @@ h3 {
     flex-direction: column;
     align-items: flex-start;
     cursor: pointer;
-    
+
 }
 
 img {
@@ -126,7 +127,7 @@ img {
     box-shadow:  1px 1px 5px 1px rgba(24, 24, 24, 0.425);
     align-self: flex-start;
 }
- 
+
 .card:hover {
     transform: scale(1.05);
     transition: all .2s ease-in;
@@ -198,7 +199,7 @@ footer {
     h1 {
         font-size: 40px;
     }
-   
+
   }
 
 
@@ -225,5 +226,5 @@ footer {
     h1 {
         font-size: 50px;
     }
-   
+
   }
