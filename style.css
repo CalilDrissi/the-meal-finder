@@ -171,10 +171,12 @@ footer {
     margin: 20px;
     align-self: flex-start;
     color: white;
-    transition: all 1s;
+    transition: all 1s ease-in-out;
+    text-shadow: 1px 1px 10px #000000;
 }
 footer:hover {
-  transform: rotate(360deg)
+  transform: scale(1.5) rotate(180deg);
+
 }
 
 
